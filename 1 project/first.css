@@ -1,3 +1,5 @@
-*{
-    background-color: aqua;
+.header{
+    width: 150px;
+    height: auto;
+    background-color: black;
 }
