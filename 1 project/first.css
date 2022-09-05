@@ -1,5 +1,15 @@
+*{
+    margin: 0px;
+}
 .header{
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 250px;
     background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.home{
+    color: blue;
+    
 }
