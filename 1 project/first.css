@@ -4,7 +4,7 @@
 .header{
     width: auto;
     height: 100px;
-    background-image: url(headerphoto.svg);
+    background-color: #373e98;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -18,25 +18,28 @@
     margin-bottom: 10px;
     padding: 10px;
     font-size: 55px;
-    color: blueviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family: monospace;
 }
 #about{
     text-align: left;
     margin: 15px;
     padding: 10px;
     font-size: 25px;
-    color: darkviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family: monospace;
 }
 #contact{
     text-align: right;
     margin: 15px;
     padding: 10px;
     font-size: 25px;
-    color: darkviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family: monospace;
 
+}
+a#name:hover{
+    color: yellow;
 }
 a{
     text-decoration: none;
