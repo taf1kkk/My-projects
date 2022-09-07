@@ -8,17 +8,20 @@
     margin: 0px;
     padding: 0px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 }
-.name{
+#name{
     text-align: center;
-    margin: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
-    font-size: 35px;
-    display: flex;
+    font-size: 55px;
+    color: blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.about{
+#about{
     text-align: left;
     margin: 15px;
     padding: 10px;
@@ -26,12 +29,15 @@
     color: darkviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.contact{
+#contact{
+    text-align: right;
     margin: 15px;
     padding: 10px;
-    text-align: right;
-    display: flex;
     font-size: 25px;
+    color: darkviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+a{
+    text-decoration: none;
 }
