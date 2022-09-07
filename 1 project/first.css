@@ -4,12 +4,22 @@
 .header{
     width: auto;
     height: 250px;
-    background-color: black;
+    background-color: rgb(137, 247, 255);
     margin: 0px;
     padding: 0px;
     display: flex;
 }
-.home{
-    color: blue;
+.about{
+    text-align: left;
+    margin: 15px;
+    padding: 10px;
     
+    font-size: 25px;
+    color: darkviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    display: grid;
+    
+
 }
