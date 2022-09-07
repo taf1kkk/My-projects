@@ -3,23 +3,35 @@
 }
 .header{
     width: auto;
-    height: 250px;
-    background-color: rgb(137, 247, 255);
+    height: 100px;
+    background-image: url(headerphoto.svg);
     margin: 0px;
     padding: 0px;
     display: flex;
+
+}
+.name{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    font-size: 35px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .about{
     text-align: left;
     margin: 15px;
     padding: 10px;
-    
     font-size: 25px;
     color: darkviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .contact{
-    display: grid;
-    
+    margin: 15px;
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
