@@ -2,4 +2,13 @@
     width: auto;
     height: 150px;
     background-color: #7D4795;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    max-width: 50px;
+    max-height: 70px;
+    padding: 40px;
+    margin: 10px;
 }
