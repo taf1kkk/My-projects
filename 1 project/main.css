@@ -12,6 +12,8 @@
     padding: 10px;
     height: 500px;
     background-color: rgb(211, 163, 255);
+    border-radius: 30px;
+    display: flex;
 
 }
 .card2{
@@ -20,7 +22,8 @@
     padding: 10px;
     height: 500px;
     background-color: rgb(228, 138, 255);
-
+    border-radius: 30px;
+    display: flex;
 }
 .card3{
     width: 1650px;
@@ -28,7 +31,8 @@
     padding: 10px;
     height: 500px;
     background-color: rgb(240, 151, 252);
-
+    border-radius: 30px;
+    display: flex;
 }
 .img{
     max-width: 650px;
@@ -42,4 +46,35 @@
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+}
+.nameGeneral{
+    padding: 50px 10px 20px 10px;
+    padding-bottom: 0px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 204, 128);
+}
+.nameUnder{
+    padding: 15px 10px 25px 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(222, 247, 83);
+}
+.buy{
+    width: 300px;
+    height: 100px;
+    color: rgb(255, 217, 0);
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(225, 255, 55);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 330px;
 }
