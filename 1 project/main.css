@@ -1,5 +1,43 @@
 .main{
     width: auto;
-    height: 1500px;
+    height: auto;
     background-color: #7883CA;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 1650px;
+    margin: 35px 15px 15px 20px;
+    padding: 10px;
+    height: 500px;
+    background-color: rgb(211, 163, 255);
+
+}
+.card2{
+    width: 1650px;
+    margin: 35px 15px 15px 20px;
+    padding: 10px;
+    height: 500px;
+    background-color: rgb(228, 138, 255);
+
+}
+.card3{
+    width: 1650px;
+    margin: 35px 15px 15px 20px;
+    padding: 10px;
+    height: 500px;
+    background-color: rgb(240, 151, 252);
+
+}
+img{
+    max-width: 650px;
+    max-height: 400px;
+}
+.img{
+    max-width: 650px;
+    max-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
